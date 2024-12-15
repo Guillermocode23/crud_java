@@ -1,0 +1,10 @@
+L001|Llantas Michelin Primacy 4|Michelin|120.00|18.00|138.00
+L002|Llantas Pirelli P Zero|Pirelli|150.00|22.50|172.50
+L003|Llantas Bridgestone Potenza|Bridgestone|100.00|15.00|115.00
+L004|Llantas Goodyear Eagle F1|Goodyear|180.00|27.00|207.00
+L005|Llantas Continental ContiSportContact 5|Continental|200.00|30.00|230.00
+L006|Llantas Dunlop SP Sport Maxx|Dunlop|110.00|16.50|126.50
+L007|Llantas Hankook Ventus S1 evo3|Hankook|250.00|37.50|287.50
+L008|Llantas BFGoodrich All-Terrain T/A KO2|BFGoodrich|130.00|19.50|149.50
+L009|Llantas Yokohama ADVAN Sport V105|Yokohama|160.00|24.00|184.00
+L010|Llantas Toyo Proxes R1R|Toyo|90.00|13.50|103.50
