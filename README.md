@@ -33,7 +33,10 @@ Cada línea del archivo se procesa para extraer los datos y luego cargar los reg
 
 ### 2. Algoritmo de inserción en la base de datos
 
-Los registros extraídos del archivo se insertan en las tablas **TB_PRODUCTO** y **TB_PROVEEDOR** mediante consultas SQL. Si el proveedor no existe, se crea un nuevo ID y se asocia con el producto.
+Los registros extraídos del archivo se insertan en las tablas **TB_PRODUCTO** y **TB_PROVEEDOR** mediante consultas SQL. Si el proveedor no existe, se crea un nuevo 
+ID y se asocia con el producto.
+
+
 <img src="insercion.jpeg" width="700" height="700"/>
 
 ### 3. Diagrama de flujo del desarrollo
@@ -251,6 +254,17 @@ public class ProcesarArchivo {
     }
 }
 ```
+1.La recursión se detiene cuando el índice (index) alcanza el tamaño del arreglo de datos (datos.length).
+
+2.Llamada Recursiva:
+Después de procesar la inserción del proveedor y el producto de la fila actual, se llama a la misma función con el siguiente índice (index + 1).
+
+3.Inserción del Proveedor:
+Si el proveedor no existe, se genera un ID único y se inserta en TB_PROVEEDOR.
+
+4.Inserción del Producto:
+Cada producto se inserta en TB_PRODUCTO y se relaciona con el ID del proveedor correspondiente.
+
 
 ## Requisitos
 
