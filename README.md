@@ -1,5 +1,5 @@
 
-# Procesamiento de Archivo y Carga en Base de Datos
+# Proyecto de Algoritmos : Procesamiento de Archivo y Carga en Base de Datos
 
 Este proyecto procesa un archivo de texto con información sobre productos y proveedores, y los carga en dos tablas de una base de datos MySQL: **TB_PRODUCTO** y **TB_PROVEEDOR**. A continuación, se describe el funcionamiento del programa, con detalles sobre cada clase y sus responsabilidades.
 
