@@ -41,7 +41,33 @@ ID y se asocia con el producto.
 
 ### 3. Diagrama de flujo del desarrollo
 
-Se incluye un diagrama de flujo detallado que muestra el proceso de lectura del archivo, verificación de proveedores y la inserción de productos en las tablas de la base de datos.
+Desglose detallado de cada etapa.
+Subprocesos intermedios para mayor claridad.
+Comentarios extensos para explicar cada sección.
+Notas explicativas adicionales en decisiones y pasos importantes.
+Reorganización modular para facilitar la comprensión y mantenimiento.
+
+Comentarios Extensos: Cada sección y paso ahora cuenta con explicaciones claras sobre lo que debe realizarse.
+
+Notas Descriptivas: Se añadieron notas (note right) en los pasos y decisiones críticas para detallar:
+
+Tareas a realizar.
+Posibles problemas.
+Sugerencias de mejora.
+
+División en Etapas: El flujo está dividido en 6 etapas principales, cada una con un encabezado claro.
+Retroalimentación Estructurada: Se añadieron bucles y retroalimentación lógica cuando ocurren errores.
+
+
+Legibilidad: El código está alineado y organizado de forma modular, facilitando su lectura y mantenimiento.
+
+Documentación Clara: Los pasos finales incluyen la creación de documentación técnica detallada.
+ Claridad Total: Cada paso es explícito y fácil de entender.
+Escalabilidad: El flujo puede adaptarse fácilmente a procesos más complejos.
+Mantenimiento Simplificado: Gracias a la división en etapas y comentarios extensivos.
+
+<img src="desarrollo.jpeg" width="700" height="700"/>
+
 
 ### 4. Checklist
 
